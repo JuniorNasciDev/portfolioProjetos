@@ -5,7 +5,7 @@
 
 .home{
     width: 100%;
-    height: 45vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,9 @@
 .home__title{
     color: var(--color-preto);
     font-family: var(--font-principal);
-    font-size: 3em;
+    font-size: 4em;
+    max-width: 80%;
+    overflow: hidden;
     margin-bottom: 0.1em;
 }
 
@@ -26,13 +28,14 @@
 }
 
 .home__search{
-    padding: 0.3em 1em;
-    min-width: 70%;
-    font-size: 0.8em;
+    padding: 1em 1em;
+    min-width: 80%;
+    max-width: 800px;
+    font-size: 1em;
     font-weight: 500;
     color: var(--color-preto);
     outline: none;
-    border-radius: 10px;
+    border-radius: 22px;
     border: 1px solid black;
 }
 
