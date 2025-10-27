@@ -2,7 +2,7 @@
 let c = 0
 
 
-const listaHistorico = localStorage.getItem('lista');
+const listaHistorico = localStorage.getItem('lista') || [];
 const lista = JSON.parse(listaHistorico)
 console.log(listaHistorico)
 let contaTff = 0;
