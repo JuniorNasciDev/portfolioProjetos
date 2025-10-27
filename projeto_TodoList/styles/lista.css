@@ -40,7 +40,9 @@
 
 .text__entry::placeholder{
     color: var(--color-texto-secundario);
+    text-align: center;
 }
+
 
 
 .lista__tarefas{
@@ -59,8 +61,8 @@
     background-color: var(--color-fundo-item);
     color: var(--color-texto-secundario);
     align-items: center;
-    overflow: hidden;
     margin: 1em 0em;
+
 }
 
 
@@ -68,6 +70,7 @@
     margin: 1em;
     width: 2em;
     height: 2em;
+    min-width: 10%;
 }
 
 .feito{
@@ -88,21 +91,28 @@
 
 .lista__tarefas__item{
     color: var(--color-texto-primeiro);
+    display: flex;
+    justify-content: space-between;
 }
 
 .item__texto{
-    max-width: 70%;
     margin: 0.2em;
     overflow-wrap: break-word;
-    width: 70%;
+   flex-grow: 1;
+   text-wrap: wrap;
+   overflow-wrap: break-word;
+   max-width: 50%;
 }
 
 .item__excluir{
+    min-width: 10%;
     background:none;
     color: var(--color-texto-primeiro);
-    border: none;font-weight: bold;
+    border: none;
+    font-weight: bold;
     text-transform: capitalize;
-    margin-right: 1em;
+    margin: 1em;
+
 
 }
 

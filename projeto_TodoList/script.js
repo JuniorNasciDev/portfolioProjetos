@@ -1,16 +1,25 @@
 
-let c = 0
 
+let contaTff = 0;
+let maior;
+let c = 0;
 
 const listaHistorico = localStorage.getItem('lista');
 const lista =  JSON.parse(listaHistorico) || [];
-console.log(listaHistorico)
-let contaTff = 0;
-
 const entryText = document.querySelector('.text__entry');
 const btnAdd = document.querySelector('.buttonAdd');
 const listaHtml = document.querySelector(".lista__tarefas");
 const iconeCheck = document.querySelector(".item__icone");
+
+for(tarefa in lista){
+    if(c == 0){
+        c = lista[tarefa].id
+    }else if( c < lista[tarefa].id){
+        c = lista[tarefa].id
+    }
+}
+
+console.log(c)
 
 
 RenderizaLista()
