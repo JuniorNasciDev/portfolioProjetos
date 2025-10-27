@@ -2,8 +2,8 @@
 let c = 0
 
 
-const listaHistorico = localStorage.getItem('lista') || [];
-const lista = JSON.parse(listaHistorico)
+const listaHistorico = localStorage.getItem('lista');
+const lista =  JSON.parse(listaHistorico) || [];
 console.log(listaHistorico)
 let contaTff = 0;
 
@@ -125,6 +125,9 @@ function RenderizaLista(){
         }
     }
     document.querySelector('.conta_Tff').innerText = contaTff
+    if(lista.length >= 0){
+        document.querySelector('.conta_Tf').innerText = lista.length
+    }
 
     localStorage.setItem(`lista`,`${JSON.stringify(lista)}`)
 }
