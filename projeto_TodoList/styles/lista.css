@@ -16,7 +16,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
+    margin: 2em;
+    max-width: 230px;
+}
+
+.icon_img{
+    max-width: 50px;
 }
 
 
