@@ -59,6 +59,22 @@
 
 .item__icone{
     margin: 1em;
+    width: 2em;
+    height: 2em;
+}
+
+.feito{
+    background: url(../assets/check.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Nfeito{
+     background: url(../assets/no_check.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .item__texto{
@@ -94,5 +110,9 @@
     text-align: justify;
     width: 100%;
     display: none;
+}
+
+.item__icone__img{
+    max-width:100%;
 }
 

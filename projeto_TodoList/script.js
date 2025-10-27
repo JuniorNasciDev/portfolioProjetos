@@ -5,9 +5,10 @@ const lista = []
 
 
 
-const entryText = document.querySelector('.text__entry')
-const btnAdd = document.querySelector('.buttonAdd')
-const listaHtml = document.querySelector(".lista__tarefas")
+const entryText = document.querySelector('.text__entry');
+const btnAdd = document.querySelector('.buttonAdd');
+const listaHtml = document.querySelector(".lista__tarefas");
+const iconeCheck = document.querySelector(".item__icone");
 
 
 // aqui eu verifico se o campo de entrada o input esta com algum valor caso não esteja bloqueia o botão de adicionar e conta os caracteres tbm
@@ -33,7 +34,8 @@ function addTarefa(){
     c++
     lista.push(
         {text: entryText.value,
-         id: c 
+         id: c,
+         stats: false
         }
     )
     entryText.value = ''
@@ -47,18 +49,55 @@ function excluiTarefa(){
     RenderizaLista()
 }
 
+function StatusTf(){
+    const btn = document.querySelector(`#${event.target.id}`)
+    for(tarefa in lista){
+        if(`stats${lista[tarefa].id}` == event.target.id && lista[tarefa].stats == false){
+           console.log('trocou para feito')
+           btn.classList.remove('Nfeito')
+           btn.classList.add('feito')
+           lista[tarefa].stats = true
+
+        }else if(`stats${lista[tarefa].id}` == event.target.id && lista[tarefa].stats == true){
+            console.log('trocou para Desfeito')
+             btn.classList.remove('feito')
+           btn.classList.add('Nfeito')
+           lista[tarefa].stats = false
+        }
+    }
+}
+
+function editaTarefa(){
+    console.log(event.target)
+    for(tarefa in lista){
+        if(`p${lista[tarefa].id}` == event.target.id){
+            console.log(lista[tarefa].text)
+            lista[tarefa].text = prompt("digite a sua nova tarefa!!");
+        }
+    }
+    RenderizaLista()
+}
+
 
 function RenderizaLista(){
-    console.log(lista)
     listaHtml.innerHTML = ''
     for (tarefa in lista){
+        let stats;
+        if(lista[tarefa].stats == true){
+            stats = 'feito'
+        }else{
+            stats = 'Nfeito'
+        }
         listaHtml.innerHTML += 
         `
-    <li class="lista__tarefas__item" id="item${lista[tarefa].id}">
-        <div class="item__icone">x</div>
-        <p class="item__texto">${lista[tarefa].text}</p>
+   <li class="lista__tarefas__item" id="item${lista[tarefa].id}">
+        <div class="item__icone ${stats}" id="stats${lista[tarefa].id}" onClick="StatusTf()">
+        </div>
+        <p class="item__texto" id="p${lista[tarefa].id}" onclick="editaTarefa()">${lista[tarefa].text}</p>
         <button class="item__excluir" onClick="excluiTarefa()" id="btn${lista[tarefa].id}" >deletar</button>
     </li>
     `
     }
+
+    document.querySelector('.conta_Tf').innerText= lista.length
 }
