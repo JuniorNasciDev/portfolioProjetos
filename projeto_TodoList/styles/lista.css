@@ -88,3 +88,11 @@
     color: var(--color-texto-secundario);
 }
 
+.text__att{
+    color: rgb(241, 53, 53);
+    margin: 2px;
+    text-align: justify;
+    width: 100%;
+    display: none;
+}
+
