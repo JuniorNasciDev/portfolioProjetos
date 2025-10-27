@@ -1,0 +1,17 @@
+@import './styles/lista.css';
+
+
+:root{
+    --color-fundo:#0f0f14;
+    --color-fundo-item:#23232d;
+    --color-borda-item:#843dff;
+    --color-texto-secundario:#82828e;
+    --color-texto-primeiro:#fafaff;
+    --font-principal: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+    background-color: #0f0f14;
+    color: white;
+    font-family: var(--font-principal)
+}

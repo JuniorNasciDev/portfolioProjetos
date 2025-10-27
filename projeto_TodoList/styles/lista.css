@@ -1,0 +1,64 @@
+@import url(../style.css);
+
+
+.janela_principal{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.header__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.lista__tarefas{
+    width: 100%;
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0px;
+
+}
+
+.lista__tarefas__item{
+    display: flex;
+    list-style: none;
+    border: 1px solid;
+    border-color: var(--color-borda-item);
+    background-color: var(--color-fundo-item);
+    color: var(--color-texto-secundario);
+    align-items: center;
+    overflow: hidden;
+}
+
+.item__icone{
+    margin: 1em;
+}
+
+.item__texto{
+    width: 80%;
+}
+
+.item__excluir{
+    background:none;
+    color: var(--color-texto-primeiro);
+    border: none;font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+.button{
+    width: 100%;
+    padding: 1em;
+    color: var(--color-texto-secundario);
+    font-weight: bold;
+    background-color: var(--color-fundo-item);
+    border-color: var(--color-borda-item);font-size: 1em;
+}
