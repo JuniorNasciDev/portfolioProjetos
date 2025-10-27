@@ -1,8 +1,10 @@
 
 let c = 0
 
-const lista = []
 
+const listaHistorico = localStorage.getItem('lista');
+const lista = JSON.parse(listaHistorico)
+console.log(listaHistorico)
 let contaTff = 0;
 
 const entryText = document.querySelector('.text__entry');
@@ -10,6 +12,8 @@ const btnAdd = document.querySelector('.buttonAdd');
 const listaHtml = document.querySelector(".lista__tarefas");
 const iconeCheck = document.querySelector(".item__icone");
 
+
+RenderizaLista()
 
 // aqui eu verifico se o campo de entrada o input esta com algum valor caso não esteja bloqueia o botão de adicionar e conta os caracteres tbm
 entryText.addEventListener('input', ()=>{
@@ -119,4 +123,6 @@ function RenderizaLista(){
         }
     }
     document.querySelector('.conta_Tff').innerText = contaTff
+
+    localStorage.setItem(`lista`,`${JSON.stringify(lista)}`)
 }
