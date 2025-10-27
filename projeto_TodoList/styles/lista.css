@@ -19,6 +19,24 @@
     width: 50%;
 }
 
+
+.text__entry{
+    background-color: var(--color-fundo-item);
+    border: 2px solid var(--color-borda-item);
+    font-size: 1em;
+    width: 100%;
+    outline: none;
+    color: var(--color-texto-primeiro);
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    margin: 1em 0em 0em 0em;
+}
+
+.text__entry::placeholder{
+    color: var(--color-texto-secundario);
+}
+
+
 .lista__tarefas{
     width: 100%;
     box-sizing: border-box;
@@ -36,6 +54,7 @@
     color: var(--color-texto-secundario);
     align-items: center;
     overflow: hidden;
+    margin: 1em 0em;
 }
 
 .item__icone{
@@ -51,14 +70,21 @@
     color: var(--color-texto-primeiro);
     border: none;font-weight: bold;
     text-transform: capitalize;
+    margin-right: 1em;
 
 }
 
-.button{
+.buttonAdd{
+    margin: 1em 0;
     width: 100%;
     padding: 1em;
-    color: var(--color-texto-secundario);
+    color: var(--color-texto-primeiro);
     font-weight: bold;
     background-color: var(--color-fundo-item);
     border-color: var(--color-borda-item);font-size: 1em;
 }
+
+.buttonAdd:disabled{
+    color: var(--color-texto-secundario);
+}
+

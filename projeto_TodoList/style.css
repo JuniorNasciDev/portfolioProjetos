@@ -1,5 +1,11 @@
 @import './styles/lista.css';
 
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
 
 :root{
     --color-fundo:#0f0f14;
