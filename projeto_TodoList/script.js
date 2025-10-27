@@ -3,7 +3,7 @@ let c = 0
 
 const lista = []
 
-
+let contaTff = 0;
 
 const entryText = document.querySelector('.text__entry');
 const btnAdd = document.querySelector('.buttonAdd');
@@ -40,31 +40,43 @@ function addTarefa(){
     )
     entryText.value = ''
     btnAdd.disabled = true
+    document.querySelector('.text__att').style.display = 'none';
     RenderizaLista()
 }
 
 function excluiTarefa(){
     const i = lista.findIndex(t => `btn${t.id}` === event.target.id)
     if( i !== -1) lista.splice(i, 1);
+    if(contaTff > 0 && `stats${event.target.id}` == true){
+        contaTff--
+    }
     RenderizaLista()
 }
 
 function StatusTf(){
     const btn = document.querySelector(`#${event.target.id}`)
+
+    const txtItem = document.querySelector(`#p${event.target.id}`)
+    
     for(tarefa in lista){
         if(`stats${lista[tarefa].id}` == event.target.id && lista[tarefa].stats == false){
            console.log('trocou para feito')
            btn.classList.remove('Nfeito')
            btn.classList.add('feito')
            lista[tarefa].stats = true
-
+           contaTff++
+        
+      
         }else if(`stats${lista[tarefa].id}` == event.target.id && lista[tarefa].stats == true){
             console.log('trocou para Desfeito')
              btn.classList.remove('feito')
            btn.classList.add('Nfeito')
            lista[tarefa].stats = false
+           contaTff--
         }
     }
+    RenderizaLista()
+    
 }
 
 function editaTarefa(){
@@ -100,4 +112,11 @@ function RenderizaLista(){
     }
 
     document.querySelector('.conta_Tf').innerText= lista.length
+    contaTff = 0
+    for(tarefa in lista){
+        if(lista[tarefa].stats == true){
+            contaTff++
+        }
+    }
+    document.querySelector('.conta_Tff').innerText = contaTff
 }

@@ -57,6 +57,7 @@
     margin: 1em 0em;
 }
 
+
 .item__icone{
     margin: 1em;
     width: 2em;
@@ -68,6 +69,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    color: var(--color-texto-primeiro);
 }
 
 .Nfeito{
@@ -75,10 +77,18 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    color: var(--color-texto-secundario);
+}
+
+.lista__tarefas__item{
+    color: var(--color-texto-primeiro);
 }
 
 .item__texto{
-    width: 80%;
+    max-width: 70%;
+    margin: 0.2em;
+    overflow-wrap: break-word;
+    width: 70%;
 }
 
 .item__excluir{
@@ -110,6 +120,7 @@
     text-align: justify;
     width: 100%;
     display: none;
+   
 }
 
 .item__icone__img{
