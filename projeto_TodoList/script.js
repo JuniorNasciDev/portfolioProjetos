@@ -97,7 +97,8 @@ function editaTarefa(){
 
 function RenderizaLista(){
     listaHtml.innerHTML = ''
-    for (tarefa in lista){
+    if(lista && lista.length > 0 ){
+        for (tarefa in lista){
         let stats;
         if(lista[tarefa].stats == true){
             stats = 'feito'
@@ -114,8 +115,9 @@ function RenderizaLista(){
     </li>
     `
     }
+    }
 
-    document.querySelector('.conta_Tf').innerText= lista.length
+
     contaTff = 0
     for(tarefa in lista){
         if(lista[tarefa].stats == true){
