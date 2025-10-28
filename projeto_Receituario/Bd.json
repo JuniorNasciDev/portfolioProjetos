@@ -1,0 +1,12 @@
+
+[
+    {
+        "titulo":"lámen do naruto",
+        "tags": ["naruto","20 minutos","ep 20 Naruto"],
+        "img": "../assets/lammen.png",
+        "descricao":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat saepe sequi nulla sapiente corporis illum quos nisi. Non, quasi aspernatur quidem, vel dolores aut provident consequuntur natus ad facilis iure!",
+        "ingredientes": ["Macarrão","Macarrão","Macarrão"],
+        "preparo":["cozinhe o macarrão","cozinhe o macarrão", "cozinhe o macarrão"],
+        "id":"123"
+    }
+]

@@ -49,13 +49,20 @@ body{
     max-height: 300px;
 }
 
+
+.box-img-receita{
+    overflow: hidden;
+}
+
 .receita-img{
     max-width: 100%;
 }
 
-.box-text{
+.descricao{
     margin: 1em 0em;
-    padding: 1.5em;
+}
+
+.box-text{
     font-family: var(--font-principal);
 }
 
@@ -69,7 +76,7 @@ body{
 }
 
 .list-ingred-item{
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 
