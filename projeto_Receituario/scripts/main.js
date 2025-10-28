@@ -5,9 +5,6 @@ const listaP = document.querySelector('.lista_cards')
 const card = document.querySelector('.card')
 
 
-listaP.style.display = 'block';
-
-
 
 function pesquisa(string,lista){
     const sugestao = []
@@ -26,6 +23,7 @@ async function load() {
     pesqui.addEventListener('input', ()=>{
         
         if(pesqui.value != ''){
+            listaP.style.display = 'block'
             const pesquisado = pesquisa(pesqui.value, data)
         if(pesquisado.length > 0){
             listaP.innerHTML = ''
@@ -45,6 +43,7 @@ async function load() {
         }
         }else{
             listaP.innerHTML = ''
+            listaP.style.display = 'none'
         }
 })
     

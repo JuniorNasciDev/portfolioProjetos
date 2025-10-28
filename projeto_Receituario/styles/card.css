@@ -12,6 +12,7 @@
     border: 1px solid whitesmoke;
     box-shadow: 1px 1px 10px -5px black;
     overflow: auto;
+    display: none;
 }
 
 
