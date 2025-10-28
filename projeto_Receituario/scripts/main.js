@@ -9,8 +9,14 @@ const card = document.querySelector('.card')
 function pesquisa(string,lista){
     const sugestao = []
     for(item in lista){
-        if(lista[item].titulo.toLowerCase().includes(string)){
+        if(lista[item].titulo.toLowerCase().startsWith(string)){
             sugestao.push(lista[item])
+        }else{
+            for(tag in lista[item].tags){
+                if(lista[item].tags[tag].toLowerCase().startsWith(string)){
+                    sugestao.push(lista[item])
+                }
+            }
         }
     }
 
@@ -23,7 +29,7 @@ async function load() {
     pesqui.addEventListener('input', ()=>{
         
         if(pesqui.value != ''){
-            listaP.style.display = 'block'
+            listaP.style.display = 'flex'
             const pesquisado = pesquisa(pesqui.value, data)
         if(pesquisado.length > 0){
             listaP.innerHTML = ''

@@ -5,15 +5,15 @@
     max-width: 100%;
     padding: 1em;
     margin: 4em auto;
-    max-width: 1600px;
-    display: flex;
-    overflow: hidden;
+    flex-wrap: wrap;
     border-radius: 12px;
     border: 1px solid whitesmoke;
     box-shadow: 1px 1px 10px -5px black;
     overflow: auto;
     display: none;
+    justify-content: space-around;
 }
+
 
 
 .card{
