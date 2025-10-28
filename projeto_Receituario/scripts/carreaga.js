@@ -28,7 +28,7 @@ async function load() {
                 }
             }
             //img do produto
-            img.src = `${data[prato].img}`
+            img.src = `.${data[prato].img}`
             //descrição do produto
             desc.textContent = `${data[prato].descricao}`
             //lista de ingredientes

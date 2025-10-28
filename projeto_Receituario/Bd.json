@@ -4,7 +4,7 @@
   "id": "123",
   "titulo": "Lámen do Naruto",
   "tags": ["Naruto", "Ramen", "20 minutos"],
-  "img": "../assets/lammen.png",
+  "img": "./assets/lammen.png",
   "descricao": "Lámen inspirado no prato favorito do Naruto. Caldo rico, macarrão firme e coberturas simples.",
   "ingredientes": [
     "Macarrão para lámen (1 porção)",
@@ -36,7 +36,7 @@
   "id": "247",
   "titulo": "Curry do Sanji",
   "tags": ["One Piece", "Curry", "30 minutos"],
-  "img": "../assets/curry.png",
+  "img": "./assets/curry.png",
   "descricao": "Curry simples e encorpado inspirado em Sanji. Arroz branco, legumes macios e sabor marcante.",
   "ingredientes": [
     "Arroz branco cozido (1 porção)",
