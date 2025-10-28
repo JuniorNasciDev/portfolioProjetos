@@ -1,12 +1,63 @@
 
 [
     {
-        "titulo":"lámen do naruto",
-        "tags": ["naruto","20 minutos","ep 20 Naruto"],
-        "img": "../assets/lammen.png",
-        "descricao":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat saepe sequi nulla sapiente corporis illum quos nisi. Non, quasi aspernatur quidem, vel dolores aut provident consequuntur natus ad facilis iure!",
-        "ingredientes": ["Macarrão","Macarrão","Macarrão"],
-        "preparo":["cozinhe o macarrão","cozinhe o macarrão", "cozinhe o macarrão"],
-        "id":"123"
-    }
+  "id": "123",
+  "titulo": "Lámen do Naruto",
+  "tags": ["Naruto", "Ramen", "20 minutos"],
+  "img": "../assets/LAMMEN.PNG",
+  "descricao": "Lámen inspirado no prato favorito do Naruto. Caldo rico, macarrão firme e coberturas simples.",
+  "ingredientes": [
+    "Macarrão para lámen (1 porção)",
+    "Caldo de frango ou porco (400 ml)",
+    "Fatias de carne cozida (chashu) ou lombo",
+    "Ovo (1)",
+    "Cebolinha fatiada",
+    "Molho shoyu ou miso (a gosto)",
+    "Óleo de gergelim (opcional)",
+    "Alga nori (opcional)"
+  ],
+  "preparo": [
+    "Aqueça 400 ml de caldo até quase ferver. Mantenha em fogo baixo.",
+    "Tempere o caldo: adicione 1–2 colheres de sopa de shoyu OU 1 colher de sopa de miso. Mexa até dissolver.",
+    "Prove o caldo e ajuste sal. Se quiser mais corpo, reduza por 3–5 minutos em fogo médio.",
+    "Ferva água em outra panela para o macarrão. Use bastante água.",
+    "Cozinhe o ovo: coloque em água fervente por 6–7 minutos para gema cremosa. Retire e faça choque térmico em água gelada. Descasque e reserve.",
+    "Fatie a carne (chashu ou lombo) em lâminas finas. Se estiver fria, aqueça rapidamente no caldo por 30–40 segundos e retire.",
+    "Cozinhe o macarrão conforme a embalagem até ficar al dente. Normalmente 2–3 minutos.",
+    "Enquanto o macarrão cozinha, aqueça a tigela despejando um pouco de água quente dentro. Escorra antes de montar.",
+    "Escorra o macarrão sem lavar. A água do cozimento ajuda a aderir o caldo.",
+    "Monte: coloque o macarrão na tigela, despeje o caldo quente por cima cobrindo bem.",
+    "Finalize com as fatias de carne, o ovo cortado ao meio, cebolinha e um fio de óleo de gergelim. Adicione nori se quiser.",
+    "Sirva imediatamente. O macarrão continua cozinhando no caldo, então não espere."
+  ]
+},
+
+{
+  "id": "247",
+  "titulo": "Curry do Sanji",
+  "tags": ["One Piece", "Curry", "30 minutos"],
+  "img": "../assets/curry.png",
+  "descricao": "Curry simples e encorpado inspirado em Sanji. Arroz branco, legumes macios e sabor marcante.",
+  "ingredientes": [
+    "Arroz branco cozido (1 porção)",
+    "Carne em cubos (200 g) ou frango",
+    "Batata em cubos (1)",
+    "Cenoura em rodelas (1)",
+    "Cebola picada (1/2)",
+    "Curry em pó ou tablete japonês de curry",
+    "Água (400 ml)",
+    "Sal a gosto",
+    "Óleo para refogar"
+  ],
+  "preparo": [
+    "Aqueça óleo em panela média e refogue a cebola até ficar transparente.",
+    "Adicione a carne ou frango e sele todos os lados até dourar levemente.",
+    "Junte a cenoura e a batata. Mexa por 1 minuto para envolver no sabor.",
+    "Despeje 400 ml de água. Tampe e cozinhe em fogo médio por 10–15 minutos ou até os legumes ficarem macios.",
+    "Adicione curry em pó ou 1 tablete de curry japonês. Mexa até dissolver e engrossar.",
+    "Ajuste sal. Cozinhe mais 2–3 minutos para apurar.",
+    "Sirva o arroz em prato fundo e despeje o curry por cima ainda quente."
+  ]
+}
+
 ]
