@@ -3,21 +3,22 @@
 
 .lista_cards{
     max-width: 100%;
-    padding: 1em;
+    width: 90%;
     margin: 4em auto;
     flex-wrap: wrap;
     border-radius: 12px;
     border: 1px solid whitesmoke;
     box-shadow: 1px 1px 10px -5px black;
     overflow: auto;
+    justify-content: flex-start;
     display: none;
-    justify-content: space-around;
+    padding: 1em;
 }
 
 
 
 .card{
-    margin: 0.5em;
+    margin: 1.2em;
     padding: 1em;
     max-width: 250px;
     border: 1px solid var(--color-laranja);
