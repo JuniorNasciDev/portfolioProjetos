@@ -28,14 +28,15 @@ async function load() {
         if(pesqui.value != ''){
             const pesquisado = pesquisa(pesqui.value, data)
         if(pesquisado.length > 0){
-            for(item in data){
+            listaP.innerHTML = ''
+            for(item in pesquisado){
         listaP.innerHTML += 
         `
         <li class="card">
-        <img src="${data[item].img}" alt="">
-        <p class="card__titulo">${data[item].titulo}</p>
-        <p class="card_descript">${data[item].descricao}</p>
-        <a class="btn_receita_card" href="./pages/receita.html?id=${data[item].id}"  onclick="escolha()"> bora Cozinhar</a>
+        <img src="${pesquisado[item].img}" alt="">
+        <p class="card__titulo">${pesquisado[item].titulo}</p>
+        <p class="card_descript">${pesquisado[item].descricao}</p>
+        <a class="btn_receita_card" href="./pages/receita.html?id=${pesquisado[item].id}"  onclick="escolha()"> bora Cozinhar</a>
     </li>
         `
     }
