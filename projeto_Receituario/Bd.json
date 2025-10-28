@@ -58,6 +58,27 @@
     "Ajuste sal. Cozinhe mais 2–3 minutos para apurar.",
     "Sirva o arroz em prato fundo e despeje o curry por cima ainda quente."
   ]
+},
+{
+  "id": "124",
+  "titulo": "Onigiri da Kanna",
+  "tags": ["Kobayashi-san Chi no Maid Dragon", "Onigiri", "5 minutos"],
+  "img": "./assets/onigiri.png",
+  "descricao": "Onigiri simples e fofo inspirado nos lanches da Kanna. Arroz temperado e recheio leve.",
+  "ingredientes": [
+    "Arroz japonês cozido (1 xícara)",
+    "Sal (1 pitada)",
+    "Alga nori em tiras ou meia folha",
+    "Recheio a escolha: atum com maionese OU umeboshi OU frango desfiado"
+  ],
+  "preparo": [
+    "Com o arroz ainda morno, molhe levemente as mãos com água e aplique uma pitada de sal nelas.",
+    "Pegue uma porção de arroz e abra um pequeno espaço no centro.",
+    "Adicione um pouco do recheio escolhido.",
+    "Modele em forma de triângulo pressionando suavemente sem amassar o arroz.",
+    "Envolva a base do onigiri com a alga nori para facilitar segurar.",
+    "Sirva imediatamente ou embrulhe para levar."
+  ]
 }
 
 ]
