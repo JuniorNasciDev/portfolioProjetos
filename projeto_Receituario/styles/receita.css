@@ -1,0 +1,68 @@
+
+
+
+
+
+.header_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em 0em;
+    box-sizing: border-box;
+}
+
+.header-title{
+    font-size: 2.8em;
+    font-family: var(--font-principal);
+}
+
+.btn-voltar{
+    rotate: 180deg;
+}
+
+.list-tags{
+    display: flex;
+    width: 100%;
+    list-style: none;
+}
+
+.list-tags-item{
+    border: 1px solid var(--color-laranja);
+    padding: 0.5em;
+    border-radius: 12px;
+    margin: 0.2em;
+}
+
+.img-btn-link{
+    max-width: 50px;
+}
+
+.box-img-receita{
+    max-width: 100%;
+}
+
+.receita-img{
+    max-width: 100%;
+}
+
+.box-text{
+    padding: 1.5em;
+    font-family: var(--font-principal);
+}
+
+.title-ingredientes{
+    font-size: 3em;
+}
+.list-ingred{
+    padding: 1em 2em;
+    box-sizing: border-box;
+
+}
+
+.list-ingred-item{
+    font-size: 1.5em;
+}
+
+
+

@@ -1,5 +1,6 @@
 @import url(./styles/home.css);
 @import url(./styles/card.css);
+@import url(./styles/receita.css);
 
 
 
@@ -17,6 +18,5 @@
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
-    list-style: none;
 }
 

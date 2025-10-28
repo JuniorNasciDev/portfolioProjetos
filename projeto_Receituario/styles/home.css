@@ -17,7 +17,7 @@
 .home__title{
     color: var(--color-preto);
     font-family: var(--font-principal);
-    font-size: 4em;
+    font-size: 4em; 
     max-width: 80%;
     overflow: hidden;
     margin-bottom: 0.1em;
