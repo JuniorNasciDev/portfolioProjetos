@@ -79,6 +79,167 @@
     "Envolva a base do onigiri com a alga nori para facilitar segurar.",
     "Sirva imediatamente ou embrulhe para levar."
   ]
-}
+},
+ {
+    "id": "301",
+    "titulo": "Omurice do Deku",
+    "tags": ["My Hero Academia", "Arroz", "15 minutos"],
+    "img": "./assets/omurice.png",
+    "descricao": "Omurice inspirado no prato caseiro japonês. Arroz temperado com frango coberto por omelete macia.",
+    "ingredientes": [
+      "Arroz cozido (1 xícara)",
+      "Frango em cubos pequenos (100 g)",
+      "Ketchup (2 colheres de sopa)",
+      "Cebola picada (1/4)",
+      "2 ovos",
+      "Sal a gosto",
+      "Pimenta a gosto",
+      "Óleo para refogar"
+    ],
+    "preparo": [
+      "Aqueça óleo em frigideira. Refogue a cebola até suar.",
+      "Adicione o frango e deixe dourar levemente.",
+      "Junte o arroz cozido e misture bem.",
+      "Adicione o ketchup e ajuste sal e pimenta. Reserve.",
+      "Bata os ovos com uma pitada de sal.",
+      "Aqueça nova frigideira untada. Despeje os ovos e cozinhe até ficar macio.",
+      "Coloque o arroz no centro e dobre o omelete sobre ele.",
+      "Finalize com ketchup por cima."
+    ]
+  },
+  {
+    "id": "302",
+    "titulo": "Takoyaki do Kaneki",
+    "tags": ["Tokyo Ghoul", "Takoyaki", "20 minutos"],
+    "img": "./assets/takoyaki.png",
+    "descricao": "Bolinhas japonesas recheadas com polvo. Crocante por fora e cremoso por dentro.",
+    "ingredientes": [
+      "Massa para takoyaki (mistura pronta) ou massa caseira",
+      "Polvo cozido em cubos",
+      "Cebolinha picada",
+      "Gengibre em conserva picado",
+      "Molho takoyaki",
+      "Maionese",
+      "Katsuobushi (flocos de peixe)",
+      "Molho okonomiyaki (opcional)"
+    ],
+    "preparo": [
+      "Aqueça a chapa de takoyaki levemente untada.",
+      "Despeje a massa preenchendo os buracos.",
+      "Coloque um cubo de polvo e gengibre em cada cavidade.",
+      "Vire as bolinhas aos poucos até dourar e ficarem redondas.",
+      "Sirva com molho takoyaki, maionese e katsuobushi por cima."
+    ]
+  },
+  {
+    "id": "303",
+    "titulo": "Dorayaki do Doraemon",
+    "tags": ["Doraemon", "Doce", "10 minutos"],
+    "img": "./assets/dorayaki.png",
+    "descricao": "Panquecas doces recheadas com pasta de feijão anko. Lanche clássico e rápido.",
+    "ingredientes": [
+      "2 ovos",
+      "Açúcar (2 colheres de sopa)",
+      "Farinha de trigo (1/2 xícara)",
+      "Fermento (1/2 colher de chá)",
+      "Mel (1 colher de sopa)",
+      "Pasta de feijão doce anko (a gosto)"
+    ],
+    "preparo": [
+      "Misture ovos, açúcar e mel até homogeneizar.",
+      "Adicione farinha e fermento. Misture sem bater demais.",
+      "Aqueça frigideira antiaderente levemente untada.",
+      "Despeje pequenas porções formando discos.",
+      "Quando surgirem bolhas, vire e termine de assar.",
+      "Recheie com anko e una dois discos formando um sanduíche."
+    ]
+  },
+  {
+    "id": "304",
+    "titulo": "Sopa Miso do Tanjiro",
+    "tags": ["Demon Slayer", "Sopa", "10 minutos"],
+    "img": "./assets/miso.png",
+    "descricao": "Sopa leve e reconfortante com tofu e algas.",
+    "ingredientes": [
+      "Água (400 ml)",
+      "Pasta de miso (1–2 colheres de sopa)",
+      "Tofu em cubos (1/2 xícara)",
+      "Cebolinha fatiada",
+      "Alga wakame hidratada",
+      "Dashi em pó (opcional)"
+    ],
+    "preparo": [
+      "Aqueça 400 ml de água e adicione dashi se estiver usando.",
+      "Dissolva a pasta de miso em um pouco da água quente. Volte para a panela.",
+      "Adicione tofu e wakame. Aqueça sem deixar ferver.",
+      "Finalize com cebolinha e sirva quente."
+    ]
+  },
+  {
+    "id": "305",
+    "titulo": "Sukiyaki do Gojo",
+    "tags": ["Jujutsu Kaisen", "Carne", "25 minutos"],
+    "img": "./assets/sukiyaki.png",
+    "descricao": "Carne fatiada com legumes cozidos em caldo doce-salgado. Clássico japonês reconfortante.",
+    "ingredientes": [
+      "Carne bovina em fatias finas (200 g)",
+      "Cebolinha (1)",
+      "Tofu firme (100 g)",
+      "Couve-chinesa em tiras",
+      "Cogumelos shiitake fatiados",
+      "Molho sukiyaki (shoyu + açúcar + mirin)",
+      "Ovo opcional"
+    ],
+    "preparo": [
+      "Aqueça frigideira funda e adicione um pouco do molho.",
+      "Sele a carne rapidamente dos dois lados.",
+      "Adicione tofu, cogumelos e couve-chinesa.",
+      "Acrescente mais molho e cozinhe até tudo ficar macio.",
+      "Sirva quente. Se quiser, mergulhe a carne em ovo batido cru antes de comer."
+    ]
+  },
+  {
+    "id": "306",
+    "titulo": "Pão de Mel da Anya",
+    "tags": ["Spy x Family", "Doce", "20 minutos"],
+    "img": "./assets/anyamel.png",
+    "descricao": "Mini pães de mel fofos com chocolate. Doce perfeito para o lanche.",
+    "ingredientes": [
+      "Farinha de trigo (1 xícara)",
+      "Mel (1/4 xícara)",
+      "Açúcar (2 colheres de sopa)",
+      "Cacau em pó (1 colher de sopa)",
+      "Leite (1/2 xícara)",
+      "Fermento (1 colher de chá)",
+      "Chocolate para cobertura"
+    ],
+    "preparo": [
+      "Misture todos os ingredientes secos.",
+      "Acrescente mel e leite. Mexa até homogeneizar.",
+      "Despeje em forminhas pequenas e asse por 10–12 minutos.",
+      "Quando esfriar, banhe no chocolate derretido."
+    ]
+  },
+  {
+    "id": "307",
+    "titulo": "Hambúrguer do Saitama",
+    "tags": ["One Punch Man", "Hambúrguer", "15 minutos"],
+    "img": "./assets/burger.png",
+    "descricao": "Hambúrguer simples e direto ao ponto. Carne suculenta com queijo derretendo.",
+    "ingredientes": [
+      "Carne moída (200 g)",
+      "Sal e pimenta",
+      "Queijo cheddar",
+      "Pão brioche",
+      "Alface e tomate",
+      "Ketchup e mostarda"
+    ],
+    "preparo": [
+      "Modele o hambúrguer. Tempere com sal e pimenta.",
+      "Sele em frigideira quente dos dois lados.",
+      "Coloque o queijo para derreter por cima.",
+      "Monte no pão com alface, tomate e molhos."
+    ]
+  }
 
 ]
