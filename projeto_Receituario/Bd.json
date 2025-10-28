@@ -4,7 +4,7 @@
   "id": "123",
   "titulo": "Lámen do Naruto",
   "tags": ["Naruto", "Ramen", "20 minutos"],
-  "img": "../assets/LAMMEN.PNG",
+  "img": "../assets/lammen.PNG",
   "descricao": "Lámen inspirado no prato favorito do Naruto. Caldo rico, macarrão firme e coberturas simples.",
   "ingredientes": [
     "Macarrão para lámen (1 porção)",
