@@ -1,6 +1,5 @@
 
 
-
 const pesqui = document.querySelector('.home__search')
 const listaP = document.querySelector('.lista_cards')
 const card = document.querySelector('.card')
@@ -10,16 +9,26 @@ listaP.style.display = 'block';
 
 
 
+function pesquisa(string,lista){
+    const sugestao = []
+    for(item in lista){
+        if(lista[item].titulo.toLowerCase().includes(string)){
+            sugestao.push(lista[item])
+        }
+    }
 
-pesqui.addEventListener('input', ()=>{
-    
-})
+    return sugestao
+}
 
 async function load() {
     const res = await fetch('Bd.json')
     const data = await res.json()
-    console.log(data[0].img)
-    for(item in data){
+    pesqui.addEventListener('input', ()=>{
+        
+        if(pesqui.value != ''){
+            const pesquisado = pesquisa(pesqui.value, data)
+        if(pesquisado.length > 0){
+            for(item in data){
         listaP.innerHTML += 
         `
         <li class="card">
@@ -30,6 +39,14 @@ async function load() {
     </li>
         `
     }
+        }else{
+            listaP.innerHTML = ''
+        }
+        }else{
+            listaP.innerHTML = ''
+        }
+})
+    
 }
 
 load()
