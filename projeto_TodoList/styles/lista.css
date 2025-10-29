@@ -81,6 +81,8 @@
     color: var(--color-texto-primeiro);
 }
 
+
+
 .Nfeito{
      background: url(../assets/no_check.png);
     background-size: contain;
@@ -104,6 +106,9 @@
    max-width: 50%;
 }
 
+.item__texto{
+    
+}
 .item__excluir{
     min-width: 10%;
     background:none;

@@ -1,7 +1,9 @@
 
 
 
-
+body{
+    margin: auto;
+}
 
 .header_box{
     width: 100%;
@@ -51,11 +53,16 @@ body{
 
 
 .box-img-receita{
-    overflow: hidden;
+    box-sizing: content-box;
+    height: fit-content;
+    max-height: 90%;
+    display: flex;
+    padding: 1em;
 }
 
 .receita-img{
     max-width: 100%;
+    max-height: 50vh;
 }
 
 .descricao{
@@ -91,5 +98,41 @@ body{
 }
 
 
+@media (min-width:700px){
+    body{
+        max-width: 80%;
+        font-size: 1.1em;
+    }
+
+    .btn-voltar{
+        width: 100%;
+    }
+
+    .box-img-receita{
+    justify-content: center;
+    }
+    .header-title{
+        text-align: center;
+    }
+    .list-tags{
+        max-width: 40%;
+        margin: auto;
+    }
+
+    .descricao{
+        width: 40%;
+        margin: auto;
+    }
+
+    .title-ingredientes{
+        text-align: center;
+    }
+
+    .box-text{
+        width: 40%;
+        margin: auto;
+    }
+
+}
 
 
